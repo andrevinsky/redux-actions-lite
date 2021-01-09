@@ -1,0 +1,25 @@
+{
+  "name": "redux-actions-lite",
+  "version": "0.1.0",
+  "description": "Flux Standard Action utlities simplified for Redux",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrevinsky/redux-actions-lite.git"
+  },
+  "keywords": [
+    "redux",
+    "actions",
+    "lite",
+    "fsa"
+  ],
+  "author": "Andrew Revinsky <arevinsky@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrevinsky/redux-actions-lite/issues"
+  },
+  "homepage": "https://github.com/andrevinsky/redux-actions-lite#readme"
+}
