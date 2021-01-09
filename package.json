@@ -4,7 +4,9 @@
   "description": "Flux Standard Action utlities simplified for Redux",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepare": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,25 @@
   "bugs": {
     "url": "https://github.com/andrevinsky/redux-actions-lite/issues"
   },
-  "homepage": "https://github.com/andrevinsky/redux-actions-lite#readme"
+  "homepage": "https://github.com/andrevinsky/redux-actions-lite#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "jest": "^26.6.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "redux-actions": "^2.6.5"
+  }
 }
