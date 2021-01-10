@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "prepare": "babel src -d lib"
+    "prepare": "babel src/index.js -d lib"
   },
   "repository": {
     "type": "git",
